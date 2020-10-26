@@ -1,0 +1,10 @@
+CREATE TABLE `registration` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `firstName` varchar(250) NOT NULL,
+ `lastName` varchar(250) NOT NULL,
+ `email` varchar(250) NOT NULL,
+ `password` varchar(250) NOT NULL,
+ `dob` varchar(250) NOT NULL,
+ `createdOn` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1
